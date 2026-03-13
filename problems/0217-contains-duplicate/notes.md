@@ -36,7 +36,6 @@ https://leetcode.com/problems/contains-duplicate/description/
 
 ## Checkpoints
 
-- 我知道題目在問是否存在重複元素
 - 我會 brute force 解法，也知道它是 `O(n^2)` / `O(1)`
 - 我會 sorting 解法，也知道它是 `O(n log n)`
 - 我知道 sorting 解法的核心是排序後重複值會相鄰

@@ -38,9 +38,6 @@ https://leetcode.com/problems/two-sum/description/
 
 ## Checkpoints
 
-- 我知道題目要找的是兩個數字的 index
-- 我知道答案回傳的是 index，不是值
-- 我知道同一個元素不能重複使用
 - 我會 brute force 解法，也知道它是 `O(n^2)` / `O(1)`
 - 我知道這題的核心是找 `target - nums[i]`
 - 我會 two-pass hash map 解法，也知道它是 `O(n)` / `O(n)`
