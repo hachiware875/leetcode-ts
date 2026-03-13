@@ -2,12 +2,6 @@ export class MinHeap {
   // 以 0-based complete binary tree 的方式儲存
   private data: number[] = [];
 
-  private swap(i: number, j: number): void {
-    const temp = this.data[i]!;
-    this.data[i] = this.data[j]!;
-    this.data[j] = temp;
-  }
-
   size(): number {
     return this.data.length;
   }
@@ -75,5 +69,11 @@ export class MinHeap {
     }
 
     return min;
+  }
+
+  private swap(i: number, j: number): void {
+    const temp = this.data[i]!;
+    this.data[i] = this.data[j]!;
+    this.data[j] = temp;
   }
 }
